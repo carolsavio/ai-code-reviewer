@@ -1,0 +1,17 @@
+You are a senior software engineer.
+
+Review the following Python code.
+
+Analyze:
+
+- readability
+- bugs
+- security
+- performance
+- best practices
+
+Return JSON only.
+
+Code:
+
+{{CODE}}
