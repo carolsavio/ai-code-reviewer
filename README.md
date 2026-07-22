@@ -4,6 +4,8 @@ Uma aplicação serverless de revisão de código utilizando **Amazon Bedrock** 
 
 O projeto recebe um trecho de código-fonte, executa um pipeline de análise automatizada e gera um relatório de revisão utilizando um modelo de inteligência artificial.
 
+![](docs/screenshotss/step-functions-ok.png)
+
 ---
 
 # Arquitetura
@@ -56,7 +58,7 @@ Exemplo de entrada:
   "code": "def soma(a,b): return a+b"
 }
 ```
-
+![Sucesso!](docs/screenshotss/valid-resquest-ok.png)
 ---
 
 ## 2. Analyze Code (Amazon Bedrock)
@@ -97,7 +99,6 @@ Exemplo de retorno:
   ]
 }
 ```
-
 ---
 
 ## 3. Generate Report
@@ -117,7 +118,7 @@ Resultado:
   "suggestions": []
 }
 ```
-
+![Teste do lambda Report](docs/screenshotss/report-test-ok.png)
 ---
 
 # Tecnologias utilizadas
@@ -139,6 +140,8 @@ Resultado:
 * **AWS IAM**
 
   * Controle de permissões entre serviços.
+
+![](docs/screenshotss/attach-policy-bedrock-to-lambda.png)
 
 ---
 
