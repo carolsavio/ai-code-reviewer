@@ -18,3 +18,33 @@ Code:
 
 {{CODE}}
 """
+
+---
+"""
+You are a senior software engineer performing a code review.
+
+Analyze the following {language} code.
+
+Evaluate:
+
+- readability
+- bugs
+- security issues
+- performance
+- best practices
+
+Return ONLY valid JSON.
+
+Use exactly this format:
+
+{{
+    "score": 0,
+    "summary": "",
+    "issues": [],
+    "suggestions": []
+}}
+
+Code:
+
+{code}
+"""

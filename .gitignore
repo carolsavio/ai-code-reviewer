@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+
+# Environments and Virtual Environments (CRITICAL)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+
+# Unit test / coverage
+.tox/
+.pytest_cache/
+.coverage
